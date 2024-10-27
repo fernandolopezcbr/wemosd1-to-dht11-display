@@ -9,8 +9,8 @@
 DHT dht(DHTPIN, DHTTYPE);
 LiquidCrystal_I2C lcd(0x27, 20, 4); // Dirección I2C del LCD (verifica si es 0x27)
 
-const char* ssid = "CLARO_Z5vwXA";
-const char* password = "FDDFF60637";
+const char* ssid = "ssid";
+const char* password = "my-pass";
 WiFiServer server(80);
 
 void setup() {
